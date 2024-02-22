@@ -1,3 +1,3 @@
 Hello there,
 
-This is an example of a portofolio
+This is an example of a portfolio
