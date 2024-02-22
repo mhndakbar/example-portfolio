@@ -1,4 +1,5 @@
 (function (app) {
+  app.siteUrl = 'https://mhndakbar.github.io/example-portfolio';
   app.portfolioItems = [];
   app.selectedItem = {};
 
@@ -56,7 +57,7 @@
     if (cachedData !== null) {
       app.portfolioItems = JSON.parse(cachedData);
     } else {
-      const response = await fetch('/js/workitems.json');
+      const response = await fetch(app.siteUrl + '/js/workitems.json');
       const data = await response.json();
       app.portfolioItems = data;
       sessionStorage.setItem('site-data', JSON.stringify(data));
@@ -79,7 +80,7 @@
     header.innerText = `0${app.selectedItem.id} ${app.selectedItem.itemTitle}`;
 
     const img = document.getElementById('workitem-image');
-    img.src = app.selectedItem.itemImageFull;
+    img.src = app.siteUrl + app.selectedItem.itemImageFull;
     img.alt = app.selectedItem.itemImageFullAlt;
 
     const projectText = document.querySelector('#project-text p');
@@ -111,7 +112,7 @@
       itemDiv.classList.add('highlight');
 
       const itemImg = document.createElement('img');
-      itemImg.src = item.itemImageSmall;
+      itemImg.src = app.siteUrl + item.itemImageSmall;
       itemImg.alt = item.itemImageSmallAlt;
 
       const itemTextDiv = document.createElement('div');
@@ -133,7 +134,7 @@
 
       const itemAnchor = document.createElement('a');
       itemAnchor.innerText = 'see more';
-      itemAnchor.href = `workitem.html?item=${itemId}`;
+      itemAnchor.href = app.siteUrl + `/workitem.html?item=${itemId}`;
 
       itemTextDiv.appendChild(itemH2);
       itemTextDiv.appendChild(itemAnchor);
@@ -153,7 +154,7 @@
     app.portfolioItems.forEach((item, index) => {
       const li = document.createElement('li');
       const anchor = document.createElement('a');
-      anchor.href = `workitem.html?item=${index + 1}`;
+      anchor.href = `${app.siteUrl}/workitem.html?item=${index + 1}`;
       anchor.innerText = `Item #${index + 1}`;
       li.appendChild(anchor);
 
