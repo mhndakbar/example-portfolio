@@ -1,0 +1,32 @@
+[
+  {
+    "itemTitle": "KIDS SPORTS WEBSITE",
+    "itemImageSmall": "/img/KidsSportsWebsite.png",
+    "itemImageSmallAlt": "Show off a website for kids sport site that has two kids playing on the front",
+    "itemImageFull": "/img/KidsSportsWebsiteFull.jpg",
+    "itemImageFullAlt": "Show off a website for kids sport site with multiple views",
+    "projectText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus saepe, vel fugiat asperiores odit fugit adipisci quam quisquam totam ducimus.",
+    "challengesText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus saepe, vel fugiat asperiores odit fugit adipisci quam quisquam totam ducimus.",
+    "itemTechnologies": ["HTML", "CSS", "JavaScript", "C#"]
+  },
+  {
+    "itemTitle": "PET ADOPTION CAMPAIGN",
+    "itemImageSmall": "/img/PetAdoptionCampaign.png",
+    "itemImageSmallAlt": "Show off print pieces asking people to adopt pets",
+    "itemImageFull": "/img/PetAdoptionCampaignFull.jpg",
+    "itemImageFullAlt": "Show off mulitple print pieces asking people to adopt pets",
+    "projectText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus saepe, vel fugiat asperiores odit fugit adipisci quam quisquam totam ducimus.",
+    "challengesText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus saepe, vel fugiat asperiores odit fugit adipisci quam quisquam totam ducimus.",
+    "itemTechnologies": ["ODF", "InDesgin", "Custome sjbdjk jbdvk"]
+  },
+  {
+    "itemTitle": "PUB WEBSITE",
+    "itemImageSmall": "/img/PubWebsite.png",
+    "itemImageSmallAlt": "Shows off a website for a pub. The page has pic for pizza and pizza-making",
+    "itemImageFull": "/img/PubWebsiteFull.jpg",
+    "itemImageFullAlt": "Shows off a website for a pub. The page has pic for pizza and pizza-making",
+    "projectText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus saepe, vel fugiat asperiores odit fugit adipisci quam quisquam totam ducimus.",
+    "challengesText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus saepe, vel fugiat asperiores odit fugit adipisci quam quisquam totam ducimus.",
+    "itemTechnologies": ["Node js", "Express", "Docker", "TypeScript"]
+  }
+]

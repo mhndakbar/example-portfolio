@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ally's Portfolio</title>
+    <meta
+      name="description"
+      content="The Portfolio page fpr Ally Reynoalds, Including samples and contact information."
+    />
+    <meta property="og:title" content="Ally Reynols's Portfolio" />
+    <meta
+      name="og:description"
+      content="The Portfolio page fpr Ally Reynoalds, Including samples and contact information."
+    />
+
+    <meta property="og:url" content="url" />
+    <link rel="canonical" href="url" />
+    <!-- Publishing to check the cards + metadata
+    postponed because I need credit card for Azure -->
+
+    <meta property="og:image" content="url/img/ally.png" />
+    <meta property="og:image:alt" content="A smiling Ally Reynolds." />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta porperty="twitter:card" content="summary_large_image" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <main>
+      <div class="hero">
+        <h1>
+          Hi, I'm <br />
+          Ally
+        </h1>
+        <img src="/img/Ally2.png" alt="A pic of me smiling." />
+      </div>
+      <div id="contact-me">
+        <h2>This is how to contact me</h2>
+        <form id="contact-form" action="" method="POST">
+          <label for="fullname">Name: </label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Message: </label>
+          <textarea name="message" id="message" rows="5" required></textarea>
+          <div>
+            <button id="submit" type="submit">Contact Ally</button>
+            <button type="reset" id="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+      <div id="portfolio-section">
+        <div>
+          <h2>This is some of my work</h2>
+          <a href="portfolio.html">see more</a>
+        </div>
+        <img
+          src="img/LandingPageCollage.png"
+          alt="My portfolio collage, including images of my adotion campaign..etc"
+        />
+      </div>
+      <div id="my-story">
+        <h2>This is my story</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quos
+          tenetur incidunt commodi ea voluptates laudantium esse, unde animi
+          error dolorum ab? Quos assumenda magni, temporibus laboriosam ullam
+          fuga esse perspiciatis sunt rem, sit incidunt excepturi, velit totam
+          blanditiis! Ut aut accusamus provident ratione, delectus quasi
+          distinctio aperiam perspiciatis eaque! Lorem ipsum dolor
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+          ullam dolores velit laboriosam cupiditate voluptas inventore quod nam
+          commodi itaque? Lorem ipsum, dolor sit
+        </p>
+      </div>
+    </main>
+    <footer>
+      &copy; <span id="copyrightYear">1996</span> by Ally Reynoalds.
+    </footer>
+    <script src="js/app.js"></script>
+    <script>
+      app.homepage();
+    </script>
+  </body>
+</html>
